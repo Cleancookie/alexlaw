@@ -1,6 +1,20 @@
 body {
   margin: 0;
-  background-image: url(/images/bg.jpg?d6c13b7b43ac5eec7592c02851feb166);
+  background-image: url("/repo-name/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+}
+
+.details {
+  margin: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  top: 200px;
+  color: white;
 }
 
 .details__title {

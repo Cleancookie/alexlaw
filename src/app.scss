@@ -1,9 +1,23 @@
+$repo-name: "alexlaw";
+
 body {
 	margin: 0;
-	background-image: url("images/bg.jpg");
+	background-image: url("/#{repo-name}/images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: center;
 }
 
 .details {
+	margin: auto;
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+	padding: 20px;
+	top: 200px;
+	color: white;
+
 	&__title {
 		margin: 0;
 	}
