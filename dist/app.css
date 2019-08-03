@@ -8,6 +8,10 @@ body {
   font-family: "Architects Daughter", cursive, Sans-Serif;
 }
 
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
 .container {
   padding-top: 130px;
 }
@@ -28,5 +32,7 @@ body {
 
 .details * \--em {
   margin: 0;
+  color: #00f1ff;
+  text-decoration: underline;
 }
 
