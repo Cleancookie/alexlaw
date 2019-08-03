@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-image: url(/images/bg.jpg?d6c13b7b43ac5eec7592c02851feb166);
+}
+
+.details__title {
+  margin: 0;
+}
+
+.details * \--em {
+  margin: 0;
+}
+
