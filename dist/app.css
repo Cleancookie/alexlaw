@@ -4,7 +4,7 @@ body {
   background-position: center;
   font-family: "Architects Daughter", cursive, Sans-Serif;
   display: flex;
-  background-image: url("/images/bg.jpg");
+  background-image: url("/alexlaw/images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
