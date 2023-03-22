@@ -12,7 +12,7 @@
     // returns time in years
     function time_diff(end, start) {
       let diff = (end.getTime() - start.getTime()) / 1000;
-      let years = diff / 60 / 60 / 24 / 365;
+      let years = (diff / 60 / 60 / 24 / 365) - 1;
       return Math.round(years * 100000000) / 100000000;
     }
 
@@ -52,6 +52,13 @@
     <hr />
     <section>
       <ul class="flex flex-row gap-4">
+        <li class="border-2 border-black rounded p-1">
+          <a href="https://alexlaw.bearblog.dev/blog/" target="_blank" name="Blog">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
+              <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
+            </svg>
+          </a>
+        </li>
         <li class="border-2 border-black rounded p-1">
           <a href="https://twitter.com/SpectralCookie" target="_blank" name="Twitter">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter"
